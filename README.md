@@ -1,7 +1,8 @@
-# MS Clean | Limpeza Pós-Obra
+# SoaresPro | Soluções em Limpeza Profissional
 
-Site institucional da MS Clean: limpeza pós-obra em São Paulo, Alto Tietê e Litoral.
+Site institucional da SoaresPro: limpeza pós-obra, residencial, predial e comercial em Suzano, Alto Tietê e região.
 
-- Arquivo único: `index.html` (logo embutida)
+- Página: `index.html` (cores e fonte centralizadas nas variáveis `:root`)
+- Logo: `img/brand/soarespro-logo.png` · Projetos: `img/projetos/`
 - WhatsApp e formulário de orçamento configurados para (11) 94048-8077
-- Publicação: GitHub Pages (Settings → Pages → Deploy from branch → main / root)
+- Publicação: GitHub Pages (branch main / root)
