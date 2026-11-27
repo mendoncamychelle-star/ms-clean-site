@@ -254,6 +254,8 @@ section{padding-block:clamp(64px,8vw,108px)}
 .gallery img,.gallery video{width:100%;height:100%;object-fit:cover;display:block}
 .gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 12px 10px;font-size:.78rem;font-weight:500;color:#fff;background:linear-gradient(transparent,rgba(7,28,48,.88))}
 .g-tall{grid-row:span 2}.g-wide{grid-column:span 2}
+.gallery.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:560px){.gallery.g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .g-tag{position:absolute;top:10px;left:10px;font-size:.66rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:var(--brand-secondary);color:var(--brand-primary);padding:4px 8px;border-radius:4px}
 @media (max-width:900px){.case{grid-template-columns:1fr}.case-info{position:static}}
 @media (max-width:560px){.gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:170px}}
@@ -477,6 +479,24 @@ footer li{overflow-wrap:anywhere}
         <p class="lede">Fotos e vídeo da nossa equipe em campo. Cada projeto entra aqui com o registro que entregamos ao cliente.</p>
       </div>
       <div class="case">
+        <div class="case-info">
+          <h3>Edifício em construção em Santa Cruz, São Paulo/SP</h3>
+          <p class="lede" style="font-size:1rem">Limpeza de obra em um edifício em construção: remoção do entulho de blocos, restos de embalagens e terra dos pavimentos e corredores, deixando os andares livres para as próximas etapas da obra.</p>
+          <ul class="case-meta">
+            <li><span>Local</span>Santa Cruz · São Paulo/SP</li>
+            <li><span>Tipo</span>Edifício em construção · pavimentos e corredores</li>
+            <li><span>Serviço</span>Limpeza grossa e remoção de entulho</li>
+          </ul>
+          <div><a class="btn btn-gold wa-link" href="#" data-msg="Olá! Conheci a SoaresPro pelo site, vi o projeto do edifício em Santa Cruz e gostaria de um orçamento." target="_blank" rel="noopener">Quero um orçamento parecido</a></div>
+        </div>
+        <div class="gallery g4">
+          <figure class="g-tall"><video src="img/projetos/santa-cruz/WhatsApp%20Video%202026-11-27%20at%2014.38.42.mp4#t=0.5" controls muted playsinline preload="metadata" aria-label="Vídeo do pavimento com entulho e do corredor depois da limpeza"></video><span class="g-tag">Vídeo</span><figcaption>Do entulho ao corredor limpo</figcaption></figure>
+          <figure class="g-tall"><img src="img/projetos/santa-cruz/WhatsApp%20Image%202026-11-27%20at%2012.08.41.jpeg" alt="Antes da limpeza: entulho de blocos, terra e sacos plásticos no pavimento do edifício em Santa Cruz" loading="lazy" width="1204" height="1600"><span class="g-tag">Antes</span><figcaption>Entulho no pavimento</figcaption></figure>
+          <figure class="g-tall"><video src="img/projetos/santa-cruz/WhatsApp%20Video%202026-11-27%20at%2012.09.31%201.mp4#t=0.5" controls muted playsinline preload="metadata" aria-label="Vídeo dos pavimentos depois da limpeza"></video><span class="g-tag">Depois</span><figcaption>Pavimentos após a limpeza</figcaption></figure>
+          <figure class="g-tall"><img src="img/projetos/santa-cruz/WhatsApp%20Image%202026-11-27%20at%2014.42.21.jpeg" alt="Equipe da SoaresPro com capacete e óculos de proteção na obra em Santa Cruz" loading="lazy" width="900" height="1600" style="object-position:center 40%"><figcaption>Equipe em campo com EPI</figcaption></figure>
+        </div>
+      </div>
+      <div class="case" style="margin-top:56px">
         <div class="case-info">
           <h3>Estacionamento coberto em Guarulhos/SP</h3>
           <p class="lede" style="font-size:1rem">Limpeza pós-obra de um estacionamento de grande porte: remoção de resíduos e poeira de obra e lavagem do piso de concreto com lavadora de alta pressão, para liberar a área para uso.</p>
